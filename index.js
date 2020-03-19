@@ -4,11 +4,15 @@ import Hello from './Hello';
 import './style.css';
 
 class App extends Component {
+  name="funne";
   constructor() {
     super();
     this.state = {
       name: 'React'
     };
+  }
+  print=()=>{
+    console.log(this.name);
   }
 
   render() {
